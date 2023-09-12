@@ -1,0 +1,59 @@
+/*No reduje el tamaño de las letras usando media query porque en las imágenes no notaba tanto el cambio de la letra con la resolución */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Cambia el color de fondo del cuerpo según tus preferencias */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 100%;
+}
+
+.logo {
+  width: 300px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: rgb(219, 45, 211);
+  letter-spacing: 8px;
+}
+
+.resort-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+}
+
+.resort-container .img1 {
+  max-width: 100%; 
+  object-fit: cover;
+  float: right;
+  width: 500px;
+  margin: 15px 0 20px 20px; 
+  height: 250px;
+}
+.img2 {
+  float: left;
+  margin: 15px 20px 0 0;
+  max-width: 100%; 
+  object-fit: cover;
+  width: 500px;
+  height: 250px;
+}
+p {
+  text-align: justify;
+  color: rgb(78, 107, 189);
+  flex: 1;
+}
+.imagen-final {
+  display: block;
+  width: 100%;
+  margin-top: 20px; 
+}
